@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="AlMIGHTYCARL">
+  
+      <title>CARL LOGIN PAGE</title>
+      
+</head>
+
+ <style>
+ 
+    *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+ 
+    body{
+      background-image:url('OIP.jpeg');
+      background-position: top left;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  
+    h1{
+      width: 800px;
+      height: 150px;
+      box-shadow: 2px 2px 50px 20px deepskyblue;
+      background: darkblue;
+      border: 1px solid deepskyblue;
+      border-radius: 15px;
+      padding-top: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+      margin-top: 100px;
+      margin-right: 100px;
+      margin-bottom: 100px;
+      margin-left: 100px;
+      text-shadow: 2px 2px 2px #000000;
+      text-indent: 50px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 50px;
+      word-spacing: 10px;
+      letter-spacing: 10px;
+      line-height: 60px;
+      color: skyblue;
+    }
+  
+    #box{
+      width: 600px;
+      height: 870px;
+      border: 2px solid deepskyblue;
+      border-radius: 100px;
+      box-shadow: 2px 2px 50px 1000px darkblue inset, 2px 2px 60px 20px darkblue, -2px -2px 60px 20px deepskyblue;
+      margin-top: 300px;
+      margin-right: 200px;
+      margin-bottom: 300px;
+      margin-left: 200px;
+      padding-top: 50px;
+      padding-right: 50px;
+      padding-bottom: 50px;
+      padding-left: 50px;
+      text-transform: justify;
+      text-align: left;
+      font-weight: normal;
+      
+  }
+    
+  p{
+    margin: 2px;
+    padding: 2px;
+    line-height: 35px;
+    font-style: oblique;
+    text-shadow: 2px 2px 2px #000000;
+    color: deepskyblue;
+  
+  }
+  
+    
+  input:focus{
+    background: lightskyblue;
+    color: black;
+    outline:none;
+  } 
+    
+  input{
+    border: 2px solid blue;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 2px deepskyblue, -2px -2px 10px 2px deepskyblue, 2px 2px 10px 1px black inset, -2px -2px 10px 1px black inset;
+    margin:5px;
+    padding:5px;
+    line-height: 25px;
+   
+  }
+  
+  .header-1{
+    text-shadow: 2px 2px 2px #0000FF;
+    letter-spacing: 5px;
+    word-spacing: 1px;
+    margin-top: 1px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: deepskyblue;
+  }
+  
+ .footer1{
+   box-shadow: 2px 2px 10px 3px deepskyblue, -2px -2px 10px 3px deepskyblue, 2px 2px 10px 1px black inset, -2px -2px 10px 1px black inset;
+   margin-top: 40px;
+   margin-right: 20px;
+   margin-bottom: 40px;
+   margin-left: 20px;
+   padding-top: 5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   padding-left: 5px;
+   width:35px;
+   height:35px;
+ 
+  }
+  
+  .footer2{
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px #000000;
+    text-align: left;
+    text-transform: justify;
+    font-weight: normal;
+  }
+ 
+  .footer3{
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: right;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px #000000;
+    color: deepskyblue;
+  }
+  
+  .footer4{
+      width: 250px;
+      color: blue;
+      box-shadow: 2px 2px 10px 2px deepskyblue, -2px -2px 10px 2px deepskyblue;
+      border: 2px solid deepskyblue;
+      border-radius: 50px;
+      background: deepskyblue;
+      margin-top: 2px;
+      margin-right: 2px;
+      margin-bottom: 2px;
+      margin-left: 130px;
+      padding-top: 5px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      padding-left 5px;
+      letter-spacing: 5px;
+      text-align: center;
+      text-shadow: 2px 2px 7px #000000;
+      font-size: 30px;
+      transition: 1s;
+  }
+
+  .footer4:hover{
+      color: deepskyblue;
+      background-color: blueviolet;
+  }
+  
+  .footer4:active{
+    color: darkblue;
+    background-color: red;
+  }
+
+  .footer5{
+    margin-top: 5px;
+    margin-right: 80px;
+    margin-bottom: 5px;
+    margin-left: 80px;
+    padding-top: 5px;
+    padding-right: 1px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    font-size: 25px;
+    color: deepskyblue;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+  }
+  
+ .footer6{
+   margin-top: 50px;
+   margin-right: 5px;
+   margin-bottom: 50px;
+   margin-left: 5px;
+   line-height: 40px;
+   word-spacing: 1px;
+   text-shadow: 2px 2px 5px lightskyblue;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 20px;
+   color: deepskyblue;
+ }
+  
+ </style>
+  
+</head>
+
+<body>
+  
+    
+ <h1>WELCOME TO PAGE OF 💧ALMIGHTY CARL💧</h1>
+ 
+ 
+<form>
+  
+    <!-- input type elements -->
+    
+    
+  <div id="box">
+    
+  <h2 class="header-1">💦CARL LOGIN FORM💦 </h2>
+    
+      <p>FIRST NAME:</p>
+      <input type"text" placeholder="ENTER YOUR FIRST NAME" required size="70"/>
+     
+      </br>
+      </br>
+      
+      <p>LAST NAME:</p>
+      <input type="text" placeholder="ENTER YOUR LAST NAME" required size="70"/>
+      </br>
+      </br>
+      
+      
+      <p>EMAIL ADDRESS:</p>
+      <input type="email" placeholder="ENTER YOUR EMAIL ADDRESS" required size="70"/>
+      </br>
+      </br>
+      
+      <p>PASSWORD:</p>
+      <input type="password" placeholder="ENTER YOUR PASSWORD" required size="70"/>
+      </br>
+      </br>
+
+      
+    <!--checkbox button & href --> 
+      
+  <input class="footer1" type="checkbox"/>
+  
+    <label class="footer2" for="remember me"> Remember me </label>
+      
+      
+    <a class="footer3" href="#"> forgot password? sign up now!</a>
+    
+    </br>
+    </br>
+   
+  <button class="footer4"> LOGIN </button>
+  
+    </br>
+    </br>
+    </br>
+    </br>
+  
+    <a class="footer5" href="#"> Don't have an account? Register here!</a>
+ 
+    <h2 class="footer6"> this login form was created by developer carl centino also known as almightycarl 💦</h2>
+ 
+  </div>
+   
+   
+</form>
+
+</body>
+
+</html>
